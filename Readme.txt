@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+# BETA 1
 
-Template Name: KnightOne
-Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Silahkan clone repositori ini untuk mengubah data dan memodifikasi sesuka hati kalian!
