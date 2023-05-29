@@ -111,6 +111,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: none;
 }
 
 #header.header-scrolled,
@@ -122,6 +123,7 @@ h6 {
   font-size: 28px;
   margin: 0;
   padding: 0;
+  padding-left: 5px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -325,6 +327,7 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  padding-right: 15px;
 }
 
 @media (max-width: 991px) {
