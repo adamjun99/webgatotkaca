@@ -366,7 +366,6 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -611,6 +610,11 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+
+.about .container {
+  width: 33.33%;
+  float:none;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
