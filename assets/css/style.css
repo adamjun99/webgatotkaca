@@ -1,11 +1,3 @@
-/**
-* Template Name: KnightOne
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -570,38 +562,31 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 20px 0;
+  padding: 20px;
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #8fffd6;
-}
-
-.section-title {
+section .section-title {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
-  font-size: 32px;
+section .section-title h2 {
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding: 5px; /* Test padding */
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #009961;
-  bottom: 0;
-  left: 0;
-}
 
-.section-title p {
+
+section .section-title p {
+  display: flex;
+  text-align: justify;
+  padding-left: 5%;
   margin-bottom: 0;
   color: #777777;
   font-size: 15px;
@@ -611,10 +596,30 @@ section {
 # About Us
 --------------------------------------------------------------*/
 
-.about .container {
+section .container-kiri {
+  background-color: #d9d9d9;
+  padding: 15px;
+  border-radius: 10px;
+  float: left;
   width: 33.33%;
-  float:none;
 }
+
+section .container-tengah {
+  padding-right: 15px;
+  float: left;
+  width: 33.33%;
+}
+
+section .container-kanan {
+  background-color: #d9d9d9;
+  padding: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  float: left;
+  width: 33.33%
+}
+
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -672,57 +677,46 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  padding: 60px 30px;
-  transition: all ease-in-out 0.3s;
+.process {
+  width: 100%;
+}
+.process .icon-box {
+  width: 16.415%;
+  display: inline-block;
   background: #fefefe;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  border-radius: 18px;
-  border-bottom: 5px solid #fff;
 }
 
-.services .icon-box .icon {
-  width: 64px;
-  height: 64px;
-  background: #009961;
-  border-radius: 50px;
+.process .icon-box .icon {
   display: flex;
-  align-items: center;
+  border-radius: 50px;
   justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
   color: #fff;
 }
 
-.services .icon-box .icon i {
-  font-size: 28px;
+.process .icon-box .icon img {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  padding-bottom: 5%;
 }
 
-.services .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
+.process .icon-box h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
-  color: #282828;
-  transition: ease-in-out 0.3s;
+/*--------------------------------------------------------------
+# Slider Title
+--------------------------------------------------------------*/
+.slider-title h2{
+  font-size: 50px;
+  padding-bottom: 2%;
+  font-weight: bold;
+  position: relative;
 }
 
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  transform: translateY(-10px);
-  border-color: #009961;
-}
-
-.services .icon-box:hover h4 a {
-  color: #009961;
-}
 
 /*--------------------------------------------------------------
 # Cta
@@ -1532,4 +1526,28 @@ section {
 
 #footer .credits a:hover {
   color: #009961;
+}
+
+
+/* Swiper YANG TERBARU */
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
